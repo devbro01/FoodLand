@@ -3,6 +3,7 @@ import Layout from '../components/layout/Layout'
 import Home from '../pages/Home'
 import Menu from '../pages/Menu'
 import Cart from '../pages/Cart'
+import Checkout from '../pages/Checkout'
 import Orders from '../pages/Orders'
 import Profile from '../pages/Profile'
 import Login from '../pages/Login'
@@ -16,6 +17,7 @@ export default function AppRoutes() {
         <Route index element={<Home />} />
         <Route path="menu" element={<Menu />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="checkout" element={<Checkout />} />
         <Route path="orders" element={<Orders />} />
         <Route path="profile" element={<Profile />} />
         <Route path="login" element={<Login />} />
